@@ -25,7 +25,7 @@ if __name__== '__main__':
         payloads=sys.argv[2].strip()
     except IndexError:
         print("format = script.py <URL path> <payload>")
-    
+        sys.exit(-1)
     if dbTypeVersion(base_url,payloads):
         print('The the database version and type is ' )
     else:
