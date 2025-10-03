@@ -13,6 +13,6 @@ This repository contains Python scripts created as part of my learning journey t
 1. SQLi/ → Scripts and notes related to SQL Injection labs.
 2. More categories will be added as I progress through different vulnerabilities.
 
-Disclaimer
+**Disclaimer**
 
 These scripts are created strictly for educational purposes. Please do not use them on systems you do not have explicit permission to test.
