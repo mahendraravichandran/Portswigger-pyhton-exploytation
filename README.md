@@ -10,8 +10,9 @@ This repository contains Python scripts created as part of my learning journey t
 
 **Repository Structure**
 
-1. SQLi/ → Scripts and notes related to SQL Injection labs.
-2. More categories will be added as I progress through different vulnerabilities.
+1. SQLi/ - Scripts related to SQL Injection labs.
+2. Authentication - Scripts related to authentication labs
+3. More categories will be added as I progress through different vulnerabilities.
 
 **Disclaimer**
 
